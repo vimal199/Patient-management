@@ -1,0 +1,12 @@
+### Cretaes a new patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "xyz12345",
+  "email": "xyz@xyz.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09"
+}
+
+###  "email": "xyz@xyz.com",
